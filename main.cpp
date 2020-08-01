@@ -1,6 +1,13 @@
-#include <iostream>
+#include <stdio.h>
+
+typedef int ElemType;
+typedef struct {
+    ElemType *elem;
+    int TableLen;
+} SSTable;
+
+
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+
 }
